@@ -7,9 +7,14 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -29,3 +34,4 @@ jobs:
           git add README.md
           git diff --staged --quiet || git commit -m "auto: update README"
           git push
+
