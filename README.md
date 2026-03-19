@@ -1,6 +1,6 @@
-# Hey, I'm Sriharish 👋
+# Hey, I'm Jay Harish 👋
 
-Builder, student & aspiring founder from Chennai.
+Builder, student & aspiring founder from Coimbatore.
 I build AI tools, web apps & automation systems —
 focused on getting hired, shipping products, and eventually building a startup.
 
@@ -8,7 +8,7 @@ focused on getting hired, shipping products, and eventually building a startup.
 
 | Project | What it does | Stack |
 |---|---|---|
-| [ResumePortfolioGenerator](https://github.com/sriharish00u/ResumePortfolioGenerator) | AI-powered resume & portfolio generator | Python, AI, Web |
+| [ResumePortfolioGenerator](https://github.com/sriharish00u/ResumePortfolioGenerator) |  Resume & portfolio generator | ReactJs |
 | [TAC - Traffic Awareness](https://github.com/sriharish00u/Tac) | Traffic awareness web app | HTML, CSS, JS |
 
 <!-- PROJECTS:START -->
