@@ -114,15 +114,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
----
-
-Now add the Gemini API key to GitHub secrets:
-```
-1. Go to your repo → Settings
-2. Secrets and variables → Actions
-3. New repository secret
-4. Name:  GEMINI_API_KEY
-5. Value: your key
-6. Click Add secret
