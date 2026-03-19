@@ -1,48 +1,100 @@
-# Hey, I'm Jay Harish 👋
+# sriharish00u
 
-Builder, student & aspiring founder from Coimbatore.
-I build AI tools, web apps & automation systems —
-focused on getting hired, shipping products, and eventually building a startup.
+## About
+This repository serves as a personal toolkit, housing a collection of utility scripts designed to streamline various development workflows. It includes tools for automating the update of a GitHub profile README with recent project activity and scripts for leveraging AI to assist with code documentation generation.
 
-## 🚀 Featured Projects
+## Features
+*   **Automated GitHub Profile Update**: Dynamically fetches and lists your latest, non-forked GitHub repositories to keep your profile README fresh.
+*   **AI-Powered Code Scanning**: Scans a wide range of code files (Python, JavaScript, HTML, CSS, TypeScript, Java, C++, C) within a repository.
+*   **Gemini API Integration**: Utilizes the Google Gemini API for potential AI-driven insights or content generation based on scanned code.
+*   **Configurable Directory Skipping**: Intelligently skips common development directories like `.git`, `node_modules`, `__pycache__`, and `.github` during code scans.
 
-| Project | What it does | Stack |
-|---|---|---|
-| [ResumePortfolioGenerator](https://github.com/sriharish00u/ResumePortfolioGenerator) |  Resume & portfolio generator | ReactJs |
-| [TAC - Traffic Awareness](https://github.com/sriharish00u/Tac) | Traffic awareness web app | HTML, CSS, JS |
+## Tech Stack
+*   **Core Language**: Python 3.x
+*   **External APIs**:
+    *   GitHub API (for repository data)
+    *   Google Gemini API (for AI capabilities)
+*   **Libraries**:
+    *   `requests` (for making HTTP requests)
+*   **Standard Python Modules**:
+    *   `os` (for operating system interactions)
+    *   `json` (for JSON data handling)
+    *   `datetime` (for date-related operations)
 
-<!-- PROJECTS:START -->
-- [sriharish00u](https://github.com/sriharish00u/sriharish00u) — no description yet
-- [pocketwise-companion](https://github.com/sriharish00u/pocketwise-companion) — no description yet
-- [Tac](https://github.com/sriharish00u/Tac) — no description yet
-- [Arin](https://github.com/sriharish00u/Arin) — Automation
-- [guardian-buddy](https://github.com/sriharish00u/guardian-buddy) — no description yet
-- [Business_Builder](https://github.com/sriharish00u/Business_Builder) — Build startup or improve available business
+## Getting Started
 
-_auto updated: 2026-03-19_
-<!-- PROJECTS:END -->
+### Prerequisites
+Before you begin, ensure you have the following installed and configured:
+*   **Python 3.x**: Download and install from [python.org](https://www.python.org/downloads/).
+*   **`requests` library**: Install via pip:
+    ```bash
+    pip install requests
+    ```
+*   **GitHub Personal Access Token**:
+    *   Generate a token with `repo` scope from your [GitHub Developer Settings](https://github.com/settings/tokens).
+    *   Set it as an environment variable: `GITHUB_TOKEN`.
+    ```bash
+    export GITHUB_TOKEN="YOUR_GITHUB_PERSONAL_ACCESS_TOKEN"
+    ```
+*   **Google Gemini API Key**:
+    *   Obtain an API key from the Google AI Studio or Google Cloud Console.
+    *   Set it as an environment variable: `GEMINI_API_KEY`.
+    ```bash
+    export GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+    ```
 
-## 🔨 Currently Building
+### Installation
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/sriharish00u/sriharish00u.git
+    cd sriharish00u
+    ```
 
-- 🤖 Mega automation system — GitHub + LinkedIn + Social, zero cost
-- 📦 Expanding ResumePortfolioGenerator with more AI features
-- 🧠 Learning: automation, AI agents, full-stack
+2.  **Verify prerequisites**: Ensure `requests` is installed and environment variables are set as described above.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Jayharishp) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/sriharish00u) [![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/sriharish00u) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:arishexim011@gmail.com)
+## Usage
 
-## 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+### Updating Your GitHub Profile README
+The `update_readme.py` script automatically fetches your latest projects and can be integrated into your profile README.
 
-## 🌱 Currently Learning
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+To run the script:
+```bash
+python scripts/update_readme.py
+```
+This script will typically generate content that can be placed into your main `README.md` file (e.g., in your `sriharish00u` profile repository if used for that purpose).
 
-## 📊 GitHub Stats:
-![](https://raw.githubusercontent.com/sriharish00u/sriharish00u/output/github-contribution-grid-snake-dark.svg)![](https://nirzak-streak-stats.vercel.app/?user=sriharish00u&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=sriharish00u&theme=dark&hide_border=false&layout=compact)
+### Generating Code Documentation (AI-Assisted)
+The `generate_docs.py` script is designed to scan a codebase and interact with the Gemini API.
 
-## 📈 Activity
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=sriharish00u&theme=github-compact)
+To run the script from the root of a project you wish to scan:
+```bash
+python scripts/generate_docs.py
+```
+By default, `scan_repo` will scan the current directory (`.`). You can modify the `scan_repo` function in `scripts/generate_docs.py` to specify a different path if needed. The exact output or interaction with the Gemini API depends on further implementation within the `generate_docs.py` script.
 
----
-[![](https://visitcount.itsvg.in/api?id=sriharish00u&icon=0&color=0)](https://visitcount.itsvg.in)
+## API Reference
+
+### Internal Script Functions
+*   **`scan_repo(path=".")`** (in `generate_docs.py`):
+    *   Scans all code files within the specified `path` (defaults to current directory).
+    *   Collects content from files with extensions like `.py`, `.js`, `.html`, `.css`, `.ts`, `.java`, `.cpp`, `.c`.
+    *   Skips directories such as `.git`, `node_modules`, `__pycache__`, and `.github`.
+
+### External API Usage
+*   **GitHub API**: `api.github.com/users/{USERNAME}/repos` is used to fetch a user's repositories.
+*   **Google Gemini API**: `generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent` is used for AI model interactions.
+
+## Screenshots
+_To add screenshots, replace this section with relevant images showcasing the project's functionality (e.g., an updated GitHub profile README, or output from the documentation generator)._
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please feel free to:
+1.  Fork the repository.
+2.  Create a new branch (`git checkout -b feature/AmazingFeature`).
+3.  Make your changes.
+4.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+5.  Push to the branch (`git push origin feature/AmazingFeature`).
+6.  Open a Pull Request.
+
+## License
+MIT
