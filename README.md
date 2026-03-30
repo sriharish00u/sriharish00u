@@ -1,6 +1,6 @@
 # sriharish00u
 
-## Abo
+## About
 - [sriharish00u](https://github.com/sriharish00u/sriharish00u) — no description yet
 - [pocketwise-companion](https://github.com/sriharish00u/pocketwise-companion) — no description yet
 - [Tac](https://github.com/sriharish00u/Tac) — no description yet
