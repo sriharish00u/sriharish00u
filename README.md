@@ -1,6 +1,6 @@
 # sriharish00u
 
-## About
+## Abo
 - [sriharish00u](https://github.com/sriharish00u/sriharish00u) — no description yet
 - [pocketwise-companion](https://github.com/sriharish00u/pocketwise-companion) — no description yet
 - [Tac](https://github.com/sriharish00u/Tac) — no description yet
@@ -8,5 +8,5 @@
 - [guardian-buddy](https://github.com/sriharish00u/guardian-buddy) — no description yet
 - [Business_Builder](https://github.com/sriharish00u/Business_Builder) — Build startup or improve available business
 
-_auto updated: 2026-03-29_
+_auto updated: 2026-03-30_
 T
